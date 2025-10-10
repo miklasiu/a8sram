@@ -1,0 +1,17 @@
+GAL16V8    ; 
+A8SRAM   ; 
+
+Clock /ES   /CI   /O2   RW    NC    NC    NC    A15  GND
+/OE   /OE1  /OE2  /CS   NC    NC    NC    OSC   Q0   VCC
+
+Q0.R = /Q0
+OSC.R = Q0 * /OSC 
+      + /Q0 * OSC
+
+/CS =  ES  + O2 + CI
+/OE1 = /RW + A15
+/OE2 = /RW + /A15
+
+
+DESCRIPTION
+For use with https://github.com/daveho/GALasm
