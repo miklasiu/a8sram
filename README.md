@@ -16,3 +16,7 @@ Schematics:
 - https://github.com/prcoder-1/a8-sram64kb
   
 What's left from Freddy is then just frequency /4 divider you can do on 7474.
+
+Finished thing:
+![top](top.jpg)
+![bottom](bottom.jpg)
