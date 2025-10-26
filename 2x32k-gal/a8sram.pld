@@ -16,3 +16,16 @@ CE = /RW
 
 DESCRIPTION
 For use with https://github.com/daveho/GALasm
+
+Clock - 14MHz clock input, also latches GAL outputs.
+A15 - Address line 15
+/ES - External Select (RAM Disable)
+/CI - CAS Inhibit (RAM Disable)
+/O2 - PHI2 clock
+/OE - GAL Output Enable
+CE - SRAM Chip Enable
+GCS - SRAM Chip Select for 64k+ RAM chips (Global CS)
+CS1 - SRAM Chip 1 Select
+CS2 - SRAM Chip 2 Select
+OSC - Clock / 4 - 3.5MHz output
+Q0 - Clock / 2 - unused
