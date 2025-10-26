@@ -1,7 +1,8 @@
 Atari 8bit Freddy and DRAM chips replacement.
 ---------------------------------------------
 
-I created it because I had 32k SRAM chips available and needed to test if my Freddy is working (it was).
+I created it because I had 32k SRAM chips available and needed to test if my Freddy was working (it was).
+The board is intended for home manufacturing. There is only 1 via. I was able to do it using 3d printer with drill attachment and laser printer thermo-transfer. Make sure to solder on both sides where necessary or tell me how to make vias/holes conductive at home.
 
 There are more reasonable Freddy and SRAM replacements avialble:
 
